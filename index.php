@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html data-wf-page="5a62c26d5e467c000147f66e" data-wf-site="5a62c26d5e467c000147f66d">
 <head>
-  <meta charset="utf-8">
+  <meta charset="<?php bloginfo( 'charset' ); ?>">
   <title>Fruit-Majesty</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/components.css" rel="stylesheet" type="text/css">
-  <link href="css/fruit-majesty.css" rel="stylesheet" type="text/css">
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
-</head>
+  <?php wp_head(); ?>
+  </head>
 <body>
   <div class="section-1">
     <div class="div-block">
-      <div class="div-block-2"><img src="images/FruitMajesty-Logo-27kb.png" srcset="images/FruitMajesty-Logo-27kb-p-500.png 500w, images/FruitMajesty-Logo-27kb.png 764w" sizes="(max-width: 479px) 80vw, (max-width: 767px) 350px, 550px" data-w-id="778eb33d-1cb4-a76c-4c5f-34a9982aabcb" style="-webkit-transform:translateX(0) translateY(-90PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);-moz-transform:translateX(0) translateY(-90PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);-ms-transform:translateX(0) translateY(-90PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);transform:translateX(0) translateY(-90PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);opacity:0" class="logo"></div>
-      <div class="div-block-3"><a href="#" data-w-id="9d9e0ca9-2f18-c47c-a719-061c27d4b17a" style="opacity:0" class="button w-button">Order Now</a></div>
+      <div class="div-block-2">
+        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/FruitMajesty-Logo-27kb.png" srcset="images/FruitMajesty-Logo-27kb-p-500.png 500w, images/FruitMajesty-Logo-27kb.png 764w" sizes="(max-width: 479px) 100vw, 550px" data-w-id="778eb33d-1cb4-a76c-4c5f-34a9982aabcb" style="-webkit-transform:translateX(0) translateY(-90PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);-moz-transform:translateX(0) translateY(-90PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);-ms-transform:translateX(0) translateY(-90PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);transform:translateX(0) translateY(-90PX) translateZ(0) scaleX(1) scaleY(1) scaleZ(1) rotateX(0) rotateY(0) rotateZ(0) skewX(0) skewY(0);opacity:0" class="logo">
+      </div>
+        <div class="div-block-3"><a href="#" data-w-id="9d9e0ca9-2f18-c47c-a719-061c27d4b17a" style="opacity:0" class="button w-button"><?php _e( 'Order Now', 'FruitMajesty' ); ?></a></div>
     </div>
   </div>
   <div class="section-2">
     <div class="div-block-5">
       <div class="div-block-6">
-        <h1 class="heading">Free Recipes</h1>
+        <h1 class="heading"><?php _e( 'Free Recipes', 'FruitMajesty' ); ?>s</h1>
       </div>
       <div class="div-block-7">
         <div class="div-block-8">
-          <div class="div-block-9"><img src="images/brenda-godinez-228182.jpg" class="image"></div>
+          <div class="div-block-9"><<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/brenda-godinez-228182.jpg" class="image"></div>
           <div class="div-block-10">
-            <div class="text-block-4">Chia Pudding Delight</div>
+            <div class="text-block-4"><?php _e( 'Chia Pudding Delight', 'FruitMajesty' ); ?></div>
           </div>
         </div>
         <div class="div-block-8">
-          <div class="div-block-9"><img src="images/alexandermils-132949.jpg" class="image"></div>
+          <div class="div-block-9"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/alexandermils-132949.jpg" class="image"></div>
           <div class="div-block-10">
-            <div>Coconut Bliss</div>
+            <div><?php _e( 'Coconut Bliss', 'FruitMajesty' ); ?></div>
           </div>
         </div>
         <div class="div-block-8">
-          <div class="div-block-9"><img src="images/wesual-click-72548.jpg" class="image"></div>
+          <div class="div-block-9"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/wesual-click-72548.jpg" class="image"></div>
           <div class="div-block-10">
-            <div>Blueberry Ice Tonic</div>
+            <div><?php _e( 'Blueberry Ice Tonic', 'FruitMajesty' ); ?></div>
           </div>
         </div>
       </div>
@@ -90,8 +87,6 @@
       </div>
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" intergrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/fruit-majesty.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-</body>
+  <?php wp_footer(); ?>
+  </body>
 </html>
