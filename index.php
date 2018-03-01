@@ -23,7 +23,7 @@
       </div>
       <div class="div-block-7">
         <div class="div-block-8">
-          <div class="div-block-9"><<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/brenda-godinez-228182.jpg" class="image"></div>
+          <div class="div-block-9"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/brenda-godinez-228182.jpg" class="image"></div>
           <div class="div-block-10">
             <div class="text-block-4"><?php _e( 'Chia Pudding Delight', 'FruitMajesty' ); ?></div>
           </div>
